@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
 body {
-  font-family: "Arial", sans-serif; 
+  font-family: 'Lora', serif;
   color: var(--font-color);
   background-color: var(--bg-color);
 }
@@ -182,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .profile .social-links a:hover {
   background: #149ddd;
-  color: #fff;
+  color: #fff
   text-decoration: none;
 }
 
@@ -1176,7 +1180,7 @@ section {
   --section-color:#f5f8fd;
   --breadcrumbs-color:#f9f9f9;
   --info-color:#fff;
-  --change-image:url("https://www.xtrafondos.com/wallpapers/mascara-anonimo-de-neon-5407.jpg");
+  --change-image:url("../img/themelight.jpg");
   --owl-dot-color:#abb3b9ad;
 }
 [data-theme="dark"] {
@@ -1201,7 +1205,7 @@ section {
   --section-color:#21252C;
   --breadcrumbs-color:#000000a6;
   --info-color:#131313;
-  --change-image:url("https://www.xtrafondos.com/wallpapers/mascara-neon-y-humo-5378.jpg");
+  --change-image:url("../img/themedark.jpg");
   --owl-dot-color:#fff;
 }
   .moon, .sun{
