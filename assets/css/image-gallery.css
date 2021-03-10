@@ -142,6 +142,27 @@ body {
   display: block;
   max-width: 100%;
 }
+.link-to-page-cont {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+  padding: 20px;
+  animation: fade-in 0.7s 5s backwards;
+}
+.link-to-page {
+display: block;
+padding: 1em 2em;
+background: #f3f1ef;
+border: 1px solid;
+border-radius: 10px;
+color: #f175a9;
+font-size: 1rem;
+text-decoration: none;
+transition: 0.25s;
+}
+.link-to-page:hover, .link-to-page:focus {
+color: #fd2e05;
+}
 
 @media (max-width: 768px) {
   .gallery {
@@ -160,12 +181,7 @@ body {
   .gallery-item:nth-child(5n+1) .gallery-item-strings::before, .gallery-item:nth-child(5n+3) .gallery-item-strings::after {
     height: 63vw;
   }
-}
-.link-to-page-cont {
-  position: fixed;
-  left: 10px;
-  top: 5px;
-  animation: fade-in 0.7s 5s backwards;
+
 }
 @media (min-width: 769px) {
   .gallery {
@@ -184,29 +200,6 @@ body {
   .gallery-item:nth-child(3n+1) .gallery-item-strings::before, .gallery-item:nth-child(3n+2) .gallery-item-strings::after {
     height: 125vw;
   }
-}
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.link-to-page {
-  display: block;
-  padding: 0.4em 0.8em;
-  background: #f3f1ef;
-  border: 1px solid;
-  border-radius: 3px;
-  color: #f175a9;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: 0.25s;
-}
-.link-to-page:hover, .link-to-page:focus {
-  color: #fd2e05;
 }
 
 .toggle-fullscreen-btn {
